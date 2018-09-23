@@ -9089,39 +9089,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01705F1560E25AEDADE344523356F280 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = StringHelpers;
-				PRODUCT_NAME = StringHelpers;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
 		03F02F3FDBE880692E2784BE8867582F /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A542CFFF34EAD05F2CFFFD14502A33F8 /* SwipeCellKit.xcconfig */;
@@ -9187,6 +9154,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0550B54252744EDE615A03E216E908CD /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE59963F07AF9631D5C3D4B37429F909 /* Pods-FreetimeWatch Extension.testflight.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
 		};
 		097D352C7D21DBA83EC095BB0DF278BF /* TestFlight */ = {
 			isa = XCBuildConfiguration;
@@ -9337,6 +9340,74 @@
 			};
 			name = TestFlight;
 		};
+		152D933F131DD5A63A7FF34128C8EA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = StringHelpers;
+				PRODUCT_NAME = StringHelpers;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		15FB81D6EE93CA7A78E2D389C479DD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = DateAgo;
+				PRODUCT_NAME = DateAgo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
 		169F8DF67F757AD40075C729EF75FC4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9C07859270C2D61921A84FA0728ACFD /* AlamofireNetworkActivityIndicator.xcconfig */;
@@ -9402,39 +9473,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		18FD99579F0EEA0657801E15C2F50940 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubAPI;
-				PRODUCT_NAME = GitHubAPI;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
 		};
 		1A0F1A45AB2934245FD253AF0B0C0623 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -9568,74 +9606,6 @@
 			};
 			name = Debug;
 		};
-		23B1704482C83F76ED5EB2FDCAD9E15C /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Apollo;
-				PRODUCT_NAME = Apollo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = TestFlight;
-		};
-		244B3672D238D6879930BF67FCBC2341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubSession;
-				PRODUCT_NAME = GitHubSession;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		2583D1FE69F6A0D25EE357C665A09BDD /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 921AB2404A2F5ADCB8D3F71BD7963CDA /* Alamofire-iOS.xcconfig */;
@@ -9669,42 +9639,7 @@
 			};
 			name = TestFlight;
 		};
-		26C923871DAB73631CC8C35F42049932 /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA86674535BFA469B79F3041576A2DE0 /* Pods-FreetimeWatch.testflight.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = TestFlight;
-		};
-		27A0B8EC2ED91ED80F4D11CD1CCFEDBB /* TestFlight */ = {
+		2D8F71A7FCAD9652F0CB81869B9036CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
 			buildSettings = {
@@ -9714,26 +9649,10 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = TestFlight;
-		};
-		280B45297099B6DF5B582E9D83C45F5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DateAgo-watchOS";
-				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/ResourceBundle-Resources-Info.plist";
-				PRODUCT_NAME = Resources;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
+			name = Release;
 		};
 		2DD7B7ADD2460D7A3A930F4D69098976 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -9836,21 +9755,6 @@
 			};
 			name = Release;
 		};
-		35B0A7CA4A9494ED666EF1F10BB72C51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DateAgo-watchOS";
-				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/ResourceBundle-Resources-Info.plist";
-				PRODUCT_NAME = Resources;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		3668C58480CFAD94FDE0A839E887B866 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 556BE1509C45E4BFDD71E60E67F47625 /* ContextMenu.xcconfig */;
@@ -9901,6 +9805,73 @@
 			};
 			name = Debug;
 		};
+		38E5B2A8C2E44338167F0A5B9C6BBBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubAPI;
+				PRODUCT_NAME = GitHubAPI;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		3AFD36931E560BB8585808DBF23623B8 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = DateAgo;
+				PRODUCT_NAME = DateAgo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
+		};
 		3AFD66CE7E443A91714027980F9C6B24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D0A2ECA9D3C6B4E450EC8A24115F216 /* Highlightr.xcconfig */;
@@ -9933,6 +9904,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		3B1B96C6393551ED52131BB02F706E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Apollo;
+				PRODUCT_NAME = Apollo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
 		};
 		3C526D6CBAB5A03ECD11ED5968F8B02B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -10070,6 +10074,40 @@
 			};
 			name = TestFlight;
 		};
+		44E9B29D710BE31FF16E8FCE3A1E6E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Apollo;
+				PRODUCT_NAME = Apollo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
 		486D0A429156FB86D32CD32E372743ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB7F048A642DF6E96F15763489CC977F /* FlatCache.xcconfig */;
@@ -10132,6 +10170,40 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = TestFlight;
+		};
+		49F93B1DCF99C8CF06E37D1550AEFF0B /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = TestFlight;
 		};
@@ -10390,39 +10462,6 @@
 			};
 			name = Release;
 		};
-		52E76D9FD4ABA08ECEB3EA30ECECFD1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
 		534040E81692B64CF8C57E9F1B624011 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7794FE48B7BC95371596593EF412B414 /* Pods-Freetime.testflight.xcconfig */;
@@ -10456,40 +10495,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = TestFlight;
-		};
-		5514F55CE77A66777A5A7FC49A6E9CAC /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = TestFlight;
 		};
@@ -10621,6 +10626,40 @@
 			};
 			name = Debug;
 		};
+		57D3EBB9F590768A2377EC6B9BF57E43 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = StringHelpers;
+				PRODUCT_NAME = StringHelpers;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
+		};
 		596C8A53BD29D0CD306604F188D2C6C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 288101CE51A94D98BBF8632821F6B04F /* FMDB.xcconfig */;
@@ -10702,39 +10741,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = TestFlight;
-		};
-		5BB693157687D4EC349C6D3155633DFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Apollo;
-				PRODUCT_NAME = Apollo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
 		};
 		5D20D20D2D060305F0632978BEBFD67C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -10997,40 +11003,6 @@
 			};
 			name = Debug;
 		};
-		68BAF0125ED37E17567F7832CD567339 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Apollo;
-				PRODUCT_NAME = Apollo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		698537736D0DD178B0072270BB23DF95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 400AD34B170EA29F0522776189E2AE04 /* FLAnimatedImage.xcconfig */;
@@ -11194,9 +11166,9 @@
 			};
 			name = TestFlight;
 		};
-		7479DA884794C7F4D8D577910FDD256D /* Debug */ = {
+		72C021E9D0082A1B67ED13E91AC24E48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
+			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -11208,24 +11180,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubSession;
-				PRODUCT_NAME = GitHubSession;
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
-			name = Debug;
+			name = Release;
 		};
 		74A826353A198937A1344BEAA3D3BDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -11325,6 +11298,110 @@
 			};
 			name = Debug;
 		};
+		78BED59AD0477092B3FF6A7F580E1555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF32EB93C2BEEE0781F0E5D319C21ED /* Pods-FreetimeWatch Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		7A7AEE6C2C28BCF072CCE4588956B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubAPI;
+				PRODUCT_NAME = GitHubAPI;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		7A9D52FC5581D0358601AF401C3D0623 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubSession;
+				PRODUCT_NAME = GitHubSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
+		};
 		7B29C723D9FB5BCDD5D54028789FBD8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8845AFA2CE8A490B235931C40834AEF4 /* Apollo-iOS.xcconfig */;
@@ -11357,40 +11434,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		81599C3E63309AD82008198543138836 /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubSession;
-				PRODUCT_NAME = GitHubSession;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = TestFlight;
 		};
 		8265A4A6722439C2D3B3EDF1A45532BB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -11524,41 +11567,6 @@
 			};
 			name = TestFlight;
 		};
-		8EBA22D75209CCEEFDBEBE3F27E96C80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0AC3297FC1A80D59373870C4926A94 /* Pods-FreetimeWatch.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = Release;
-		};
 		93756BC740E5F84BA5C01B4DFD7F64C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D473B47B90F728478179EDC195B29A7 /* SnapKit.xcconfig */;
@@ -11625,40 +11633,6 @@
 			};
 			name = TestFlight;
 		};
-		9434F1D767227AED8CE35E2B48EAA187 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = StringHelpers;
-				PRODUCT_NAME = StringHelpers;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		98036077BA6A29954D8434090FBCEA79 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -11717,6 +11691,39 @@
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = TestFlight;
+		};
+		9B9B48D73B0692E2433409CFB28400E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubSession;
+				PRODUCT_NAME = GitHubSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
 		};
 		9E2D311FE94D048A73FE04543FC6740C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -11870,6 +11877,40 @@
 			};
 			name = Release;
 		};
+		A7AD12488C0D806DD2BE15ADA89F1F32 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubAPI;
+				PRODUCT_NAME = GitHubAPI;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
+		};
 		ABE4A7349AF4F9399BEC8264701745BA /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DA0561502275C0C524CCC889A3581A4 /* Squawk.xcconfig */;
@@ -11937,10 +11978,11 @@
 			};
 			name = Release;
 		};
-		B12A0DC3D45BCE8D3943F6EB1E78B875 /* TestFlight */ = {
+		AF4FE5AACC4AE64894FAB447C77BA5CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
+			baseConfigurationReference = 2E0AC3297FC1A80D59373870C4926A94 /* Pods-FreetimeWatch.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11951,57 +11993,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubAPI;
-				PRODUCT_NAME = GitHubAPI;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = TestFlight;
-		};
-		B1D9C19917D4DA3DF891E9847F9B5FBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = DateAgo;
-				PRODUCT_NAME = DateAgo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Release;
 		};
@@ -12034,6 +12042,89 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4A6295A8F28907F2F7EEE3D0F4924C5 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F805E06E6BDB3473625211DBB9132B67 /* Apollo-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apollo-watchOS/Apollo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apollo-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Apollo-watchOS/Apollo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Apollo;
+				PRODUCT_NAME = Apollo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
+		};
+		B5156741F96BE55E32BF9315F290425D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DateAgo-watchOS";
+				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/ResourceBundle-Resources-Info.plist";
+				PRODUCT_NAME = Resources;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B55873FCC1DBBBC1CCD2129978931A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90081AF59E3FC3F5A74846AE42BC760B /* Pods-FreetimeWatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Debug;
 		};
@@ -12284,11 +12375,10 @@
 			};
 			name = Release;
 		};
-		C2541E07C20E6CA8B40BE0E0C8CAE844 /* Release */ = {
+		C2BF6F1B25EDDDD7752F3C6DB7A6E940 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF32EB93C2BEEE0781F0E5D319C21ED /* Pods-FreetimeWatch Extension.release.xcconfig */;
+			baseConfigurationReference = 495B8A1CB83968DC13C9F78853A0FAC9 /* GitHubSession-watchOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12299,24 +12389,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GitHubSession-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GitHubSession-watchOS/GitHubSession-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = GitHubSession;
+				PRODUCT_NAME = GitHubSession;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Release;
 		};
@@ -12434,6 +12523,39 @@
 			};
 			name = Debug;
 		};
+		C51B0E0A8F69D11500657C17027A995F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = StringHelpers;
+				PRODUCT_NAME = StringHelpers;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
 		C5709422F1723F5D07346B7F9FEDF568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFD9F4D8A5E80DFCCB627ECB44BF2F67 /* SDWebImage.xcconfig */;
@@ -12464,40 +12586,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C69700A8C36481A0B15F956CC3A9B188 /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A918CE1115CAAC9EBB14A618FC2E8303 /* StringHelpers-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringHelpers-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringHelpers-watchOS/StringHelpers-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = StringHelpers;
-				PRODUCT_NAME = StringHelpers;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = TestFlight;
 		};
 		C6E6AD42DF517E920ACEF7593EDB9C30 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -12532,11 +12620,10 @@
 			};
 			name = Release;
 		};
-		C7D42693E41079BEC84B420167256A24 /* Debug */ = {
+		CBBB63B82664972F7EF29F51E3FA5C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01C7D5B911F190BBB3489C8FD5962089 /* Pods-FreetimeWatch Extension.debug.xcconfig */;
+			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12547,24 +12634,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Debug;
 		};
@@ -12602,6 +12687,42 @@
 			};
 			name = TestFlight;
 		};
+		CE7007444ACC593DC1B573D7BD1E36E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C7D5B911F190BBB3489C8FD5962089 /* Pods-FreetimeWatch Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
 		CF3B47AE06FAEA00529FB93D3B4A57CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72D8218D73CA3B0833FAF7F3D2683176 /* GitHubAPI-iOS.xcconfig */;
@@ -12632,40 +12753,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF6DBCD7821B6DC0565F18D6CA69C3FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90081AF59E3FC3F5A74846AE42BC760B /* Pods-FreetimeWatch.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
@@ -12702,11 +12789,10 @@
 			};
 			name = Release;
 		};
-		D2EE780DF25E0C160DA5BB7773DB46EE /* TestFlight */ = {
+		D11217694F2CED60297040279CC2F1BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE59963F07AF9631D5C3D4B37429F909 /* Pods-FreetimeWatch Extension.testflight.xcconfig */;
+			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12717,26 +12803,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch Extension/Pods-FreetimeWatch Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = DateAgo;
+				PRODUCT_NAME = DateAgo;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
-			name = TestFlight;
+			name = Debug;
 		};
 		D6B64FE64D3C4FB06E40A6CC9AA186B7 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
@@ -12770,40 +12854,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = TestFlight;
-		};
-		D7749F82B4437F1E1426A9E27EA45A79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 603A5C98705D382C26CBF11486AC2FD3 /* Alamofire-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
 		};
 		D8D4010F93E75997A641FA9D1FCE71EF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -12856,6 +12906,41 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		DC70457678656B3B5010691770B7C405 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA86674535BFA469B79F3041576A2DE0 /* Pods-FreetimeWatch.testflight.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FreetimeWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FreetimeWatch/Pods-FreetimeWatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = TestFlight;
 		};
 		DE8EE8465E4BF3E8DC4319C0A653E027 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
@@ -12987,40 +13072,6 @@
 			};
 			name = Release;
 		};
-		E5639AE3E518F5813234304A83ACFF86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC830CDE63C59D6F9CE9F0D11C8F94BD /* GitHubAPI-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GitHubAPI-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GitHubAPI-watchOS/GitHubAPI-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = GitHubAPI;
-				PRODUCT_NAME = GitHubAPI;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
 		E6D6F33983937CBD359A44E7877657F9 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72D8218D73CA3B0833FAF7F3D2683176 /* GitHubAPI-iOS.xcconfig */;
@@ -13086,39 +13137,6 @@
 			};
 			name = Debug;
 		};
-		E914E24C87FAB93ED8DDDEBC4D9F0E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = DateAgo;
-				PRODUCT_NAME = DateAgo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
 		F14D06277175BA03F521967135C31533 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8845AFA2CE8A490B235931C40834AEF4 /* Apollo-iOS.xcconfig */;
@@ -13151,40 +13169,6 @@
 			};
 			name = Debug;
 		};
-		F478097ECD51D825AD33CCF51FB8DD27 /* TestFlight */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DateAgo-watchOS/DateAgo-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = DateAgo;
-				PRODUCT_NAME = DateAgo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = TestFlight;
-		};
 		F55B2FE4061306A846C0F87D22FF4260 /* TestFlight */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 288101CE51A94D98BBF8632821F6B04F /* FMDB.xcconfig */;
@@ -13214,6 +13198,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = TestFlight;
+		};
+		F5810984CF945F533C3429A18B7121BD /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB27FA1BC72E5A99CF90D61320D6DA46 /* DateAgo-watchOS.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DateAgo-watchOS";
+				INFOPLIST_FILE = "Target Support Files/DateAgo-watchOS/ResourceBundle-Resources-Info.plist";
+				PRODUCT_NAME = Resources;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = TestFlight;
 		};
@@ -13264,9 +13264,9 @@
 		058DEB648E6027B9F744D53C9C99DC6A /* Build configuration list for PBXNativeTarget "GitHubAPI-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18FD99579F0EEA0657801E15C2F50940 /* Debug */,
-				E5639AE3E518F5813234304A83ACFF86 /* Release */,
-				B12A0DC3D45BCE8D3943F6EB1E78B875 /* TestFlight */,
+				38E5B2A8C2E44338167F0A5B9C6BBBE9 /* Debug */,
+				7A7AEE6C2C28BCF072CCE4588956B18C /* Release */,
+				A7AD12488C0D806DD2BE15ADA89F1F32 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13304,9 +13304,9 @@
 		1938063AD8C730D8BD2F9838B7640D8B /* Build configuration list for PBXNativeTarget "StringHelpers-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01705F1560E25AEDADE344523356F280 /* Debug */,
-				9434F1D767227AED8CE35E2B48EAA187 /* Release */,
-				C69700A8C36481A0B15F956CC3A9B188 /* TestFlight */,
+				C51B0E0A8F69D11500657C17027A995F /* Debug */,
+				152D933F131DD5A63A7FF34128C8EA8B /* Release */,
+				57D3EBB9F590768A2377EC6B9BF57E43 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13374,9 +13374,9 @@
 		3374C97401B2BF168E2B83DAAB7EEC1C /* Build configuration list for PBXNativeTarget "DateAgo-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E914E24C87FAB93ED8DDDEBC4D9F0E26 /* Debug */,
-				B1D9C19917D4DA3DF891E9847F9B5FBD /* Release */,
-				F478097ECD51D825AD33CCF51FB8DD27 /* TestFlight */,
+				D11217694F2CED60297040279CC2F1BF /* Debug */,
+				15FB81D6EE93CA7A78E2D389C479DD55 /* Release */,
+				3AFD36931E560BB8585808DBF23623B8 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13414,9 +13414,9 @@
 		4845FBAD155892BF87F8794C5A33D5D6 /* Build configuration list for PBXNativeTarget "Pods-FreetimeWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF6DBCD7821B6DC0565F18D6CA69C3FB /* Debug */,
-				8EBA22D75209CCEEFDBEBE3F27E96C80 /* Release */,
-				26C923871DAB73631CC8C35F42049932 /* TestFlight */,
+				B55873FCC1DBBBC1CCD2129978931A60 /* Debug */,
+				AF4FE5AACC4AE64894FAB447C77BA5CA /* Release */,
+				DC70457678656B3B5010691770B7C405 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13454,9 +13454,9 @@
 		621A61EDB0D52231667E759294D48E72 /* Build configuration list for PBXNativeTarget "GitHubSession-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7479DA884794C7F4D8D577910FDD256D /* Debug */,
-				244B3672D238D6879930BF67FCBC2341 /* Release */,
-				81599C3E63309AD82008198543138836 /* TestFlight */,
+				9B9B48D73B0692E2433409CFB28400E9 /* Debug */,
+				C2BF6F1B25EDDDD7752F3C6DB7A6E940 /* Release */,
+				7A9D52FC5581D0358601AF401C3D0623 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13474,9 +13474,9 @@
 		6F29FEBE08E0D782A396F72D0CE1FCF6 /* Build configuration list for PBXNativeTarget "DateAgo-watchOS-Resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				280B45297099B6DF5B582E9D83C45F5A /* Debug */,
-				35B0A7CA4A9494ED666EF1F10BB72C51 /* Release */,
-				27A0B8EC2ED91ED80F4D11CD1CCFEDBB /* TestFlight */,
+				B5156741F96BE55E32BF9315F290425D /* Debug */,
+				2D8F71A7FCAD9652F0CB81869B9036CC /* Release */,
+				F5810984CF945F533C3429A18B7121BD /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13534,9 +13534,9 @@
 		B3D07E844CBA1E0B3AC64D48EE42F18D /* Build configuration list for PBXNativeTarget "Alamofire-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52E76D9FD4ABA08ECEB3EA30ECECFD1E /* Debug */,
-				D7749F82B4437F1E1426A9E27EA45A79 /* Release */,
-				5514F55CE77A66777A5A7FC49A6E9CAC /* TestFlight */,
+				CBBB63B82664972F7EF29F51E3FA5C45 /* Debug */,
+				72C021E9D0082A1B67ED13E91AC24E48 /* Release */,
+				49F93B1DCF99C8CF06E37D1550AEFF0B /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13584,9 +13584,9 @@
 		D965E7476C2710CA180E674D8AEB1A75 /* Build configuration list for PBXNativeTarget "Pods-FreetimeWatch Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7D42693E41079BEC84B420167256A24 /* Debug */,
-				C2541E07C20E6CA8B40BE0E0C8CAE844 /* Release */,
-				D2EE780DF25E0C160DA5BB7773DB46EE /* TestFlight */,
+				CE7007444ACC593DC1B573D7BD1E36E1 /* Debug */,
+				78BED59AD0477092B3FF6A7F580E1555 /* Release */,
+				0550B54252744EDE615A03E216E908CD /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -13594,9 +13594,9 @@
 		DD1D21CFB8B85E1F6820F6CFEC019BEF /* Build configuration list for PBXNativeTarget "Apollo-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BB693157687D4EC349C6D3155633DFC /* Debug */,
-				68BAF0125ED37E17567F7832CD567339 /* Release */,
-				23B1704482C83F76ED5EB2FDCAD9E15C /* TestFlight */,
+				3B1B96C6393551ED52131BB02F706E12 /* Debug */,
+				44E9B29D710BE31FF16E8FCE3A1E6E91 /* Release */,
+				B4A6295A8F28907F2F7EEE3D0F4924C5 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
